@@ -2,10 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My site</title>
+    <title>Contact form</title>
 </head>
 <body>
-    <h1>This is my website</h1>
+    <form action="https://formsubmit.co/anwojtan@gmail.com" method="POST">
+        <input type="email" name="email" placeholder="Email Address" required>
+        <input type="hidden" name="_next" value="https://newanka.github.io/">
+        <input type="text" name="name" required>
+        <input type="text" name="message" placeholder="write your message">
+        <button type="submit">Send</button>
+    </form>
 </body>
 </html>
